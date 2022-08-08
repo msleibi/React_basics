@@ -1,0 +1,24 @@
+@use 'normalize';
+@use 'variables';
+@use 'header';
+@use 'footer';
+@use 'layout';
+@use 'links';
+@use 'colorBoxes';
+@use 'input';
+@use 'moodToggle';
+@use 'jsxDemo';
+@use 'thumbnails';
+@use 'pioneers';
+
+$small-max: 33rem;
+$large-min: 70rem;
+
+$medium: '#{$small-max} < width <= #{$large-min}';
+//@custom-media --medium (#{$small-max} < width <= #{$large-min});
+
+body {
+  @media ($medium) {
+    background: rebeccapurple;
+  }
+}

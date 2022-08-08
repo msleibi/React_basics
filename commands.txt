@@ -1,0 +1,24 @@
+// to create a react project template  after of course installing nodeJs 16 to execute this command:
+
+npx create-react-app react-complete-guide
+
+
+// to install all the dependencies
+> npm install
+
+
+to start the server:
+> npm start
+
+// This is imperative approach:
+const para = document.createElement('p');
+para.textContent = 'This is also visible!';
+document.querySelector('#root').append(para);
+
+// in React it is declarative approach:
+
+
+
+
+Styled-components package for styled components:
+npm install --save styled-components
