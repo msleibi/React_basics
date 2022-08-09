@@ -12,3 +12,15 @@ $npm install --save-dev babel-loader @babel/preset-env @babel/core  @babel/prese
 $npm install --save-dev  @babel/runtime
 
 $npm install --save-dev @babel/plugin-transform-runtime
+
+$npm install --save-dev css-loader     (then add to module in webpack.config.js)
+$npm install --save-dev style-loader
+
+module: {
+    rules: [
+       {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      }
+    ],
+  },
