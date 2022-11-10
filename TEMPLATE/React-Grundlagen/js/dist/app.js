@@ -22796,17 +22796,39 @@ function Emoji(props) {
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
         className: "emoji",
         "aria-label": props.description,
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-            children: [
-                " ",
-                props.icon
-            ]
-        }, void 0, true, {
-            fileName: "js/src/components/Demo.jsx",
-            lineNumber: 10,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                children: [
+                    " ",
+                    props.icon
+                ]
+            }, void 0, true, {
+                fileName: "js/src/components/Demo.jsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                children: [
+                    " ",
+                    props.icon
+                ]
+            }, void 0, true, {
+                fileName: "js/src/components/Demo.jsx",
+                lineNumber: 11,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                children: [
+                    " ",
+                    props.icon
+                ]
+            }, void 0, true, {
+                fileName: "js/src/components/Demo.jsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "js/src/components/Demo.jsx",
         lineNumber: 9,
         columnNumber: 5

@@ -8,6 +8,8 @@ function Emoji(props) {
   return (
     <span className="emoji" aria-label={props.description}>
       <h2> {props.icon}</h2>
+      <h2> {props.icon}</h2>
+      <h2> {props.icon}</h2>
     </span>
   );
 }
